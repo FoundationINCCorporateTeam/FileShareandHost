@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Hosting and Sharing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>File Hosting and Sharing</h1>
+    <input type="file" id="fileInput">
+    <button onclick="uploadFile()">Upload File</button>
+    
+    <div id="fileLink" style="display: none;">
+        <p>File uploaded successfully!</p>
+        <p>Share this link:</p>
+        <input type="text" id="fileUrl" readonly>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
